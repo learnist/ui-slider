@@ -129,7 +129,7 @@ angular.module('ui.slider', []).value('uiSliderConfig',{}).directive('uiSlider',
                 }, true);
 
                 function destroy() {
-                    elm.slider('destroy');
+                    // elm.slider('destroy');
                 }
                 // angular 1.3 requires destroy to be called differently [BD]
                 // more info: https://github.com/angular-ui/ui-slider/issues/41
